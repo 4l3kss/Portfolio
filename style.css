@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-color: black;
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 88.2vh;
+
+  border: 50px solid black;
+  padding: 15px;
+
+  position: fixed;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px black;
+
+  padding-top: 90px;
+  padding-left: 90px;
+}
+
+.apps {
+  padding-top: 90px;
+  padding-left: 90px;
+  padding-right: 560px;
+  float: left;
+}
+
+.btns {
+  height: 90px;
+  width: 90px;
+}
+
+.btn-text {
+  padding-bottom: 20px;
+  padding-left: 18px;
+  color: white;
+}
+
+.btn-info {
+  padding-bottom: 20px;
+  padding-left: 30px;
+  color: white;
+}
+
+.brief {
+  padding-left: 1500px;
+  padding-top: 550px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.444);
+}
+.copyright_ind {
+  color: white;
+  padding-top: 94px;
+  padding-right: 70px;
+  text-align: center;
+}
+
+
+@media all and (max-width: 1600px) {
+  body,
+  html {
+    height: 100%;
+  }
+
+  .background-image {
+    background-color: rgb(37, 37, 160);
+    background-image: url('./images/background.jpg');
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 50px solid transparent;
+  }
+
+  .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+
+    text-align: center;
+    padding-right: 200px;
+  }
+
+  .apps {
+    padding: 80px;
+    padding-top: 300px;
+  }
+
+  .column {
+    float: left;
+    width: 20%;
+    padding: 30px;
+  }
+
+  .btns {
+    width: 200px;
+    height: 200px;
+  }
+  .btn-text{
+    font-size: 50px;
+  }
+  .btn-info{
+    font-size: 50px;
+    padding-left: 60px;
+  }
+  .brief{
+    visibility: collapse;
+  }
+
+  .open{
+    height: 20vh;
+    width: 20vh;
+  }
+  .copyright_ind {
+    color: white;
+    font-size: 40px;
+    padding-top: 500px;
+    padding-right: 120px;
+  }
+}
